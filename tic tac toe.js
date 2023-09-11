@@ -35,6 +35,11 @@ function winner(sign){
         }else{
             
         }
+    }else if(document.getElementById("box1").innerText != "" && document.getElementById("box2").innerText != "" && document.getElementById("box3").innerText != "" &&
+    document.getElementById("box4").innerText != ""&& document.getElementById("box5").innerText != "" && document.getElementById("box6").innerText != "" &&
+    document.getElementById("box7").innerText != "" && document.getElementById("box8").innerText != "" && document.getElementById("box9").innerText != ""){
+        alert("Neither Player 1 nor Player 2 is the Winner, Please restart the game!!")
+        location.reload()
     }
 }
 
