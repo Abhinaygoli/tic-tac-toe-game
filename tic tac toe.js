@@ -29,11 +29,9 @@ function winner(sign){
         if(sign == "X"){
             alert("Player 1 is winner")
             location.reload()
-        }else if(sign=="O"){
+        }else{
             alert("Player 2 is winner")   
             location.reload()
-        }else{
-            
         }
     }else if(document.getElementById("box1").innerText != "" && document.getElementById("box2").innerText != "" && document.getElementById("box3").innerText != "" &&
     document.getElementById("box4").innerText != ""&& document.getElementById("box5").innerText != "" && document.getElementById("box6").innerText != "" &&
