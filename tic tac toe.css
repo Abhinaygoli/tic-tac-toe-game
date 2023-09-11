@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: bisque;
+    margin: 0px;
+}
+
+
+.heading{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 5px 5px 4px rgb(41, 43, 50);
+    letter-spacing: 2px;
+}
+#player{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 5px 5px 4px rgb(41, 43, 50);
+}
+table{
+    margin: 20px auto;
+    border-spacing: 10px;
+}
+td{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+td:hover{
+    transform: scale(1.03);
+}
