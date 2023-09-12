@@ -1,4 +1,5 @@
 var sign = "X";
+
 var playerDetail = document.getElementById("player")
 function boxClicked(id){
     var clickedElement = document.getElementById(id);
@@ -16,7 +17,6 @@ function boxClicked(id){
         }
     }
 }
-
 function winner(sign){
     if(document.getElementById("box1").innerHTML == sign && document.getElementById("box2").innerHTML == sign && document.getElementById("box3").innerHTML == sign 
     || document.getElementById("box4").innerHTML == sign && document.getElementById("box5").innerHTML == sign && document.getElementById("box6").innerHTML == sign
@@ -27,11 +27,20 @@ function winner(sign){
     || document.getElementById("box2").innerHTML == sign && document.getElementById("box5").innerHTML == sign && document.getElementById("box8").innerHTML == sign
     || document.getElementById("box3").innerHTML == sign && document.getElementById("box6").innerHTML == sign && document.getElementById("box9").innerHTML == sign){
         if(sign == "X"){
-            alert("Player 1 is winner")
-            location.reload()
-        }else{
-            alert("Player 2 is winner")   
-            location.reload()
+            setTimeout(function(){
+                alert("Player 1 is winner")
+            },200)
+            setTimeout(function(){
+                location.reload()
+            },3000)
+            
+        }else{   
+            setTimeout(function(){
+                alert("Player 2 is winner")
+            },200)
+            setTimeout(function(){
+                location.reload()
+            },3000)
         }
     }else if(document.getElementById("box1").innerText != "" && document.getElementById("box2").innerText != "" && document.getElementById("box3").innerText != "" &&
     document.getElementById("box4").innerText != ""&& document.getElementById("box5").innerText != "" && document.getElementById("box6").innerText != "" &&
@@ -40,4 +49,3 @@ function winner(sign){
         location.reload()
     }
 }
-
