@@ -84,13 +84,13 @@ td:hover{
         font-size: 40px;
     }
     #player1{
-        font-size: 15px;
+        font-size: 12px;
         margin-left: 20px;
         padding: 20px;
         border-radius: 15px;
     }
     #player2{
-        font-size: 15px;
+        font-size: 12px;
         margin-right: 20px;
         padding: 20px;
         border-radius: 15px;
@@ -99,8 +99,8 @@ td:hover{
         border-spacing: 5px;
     }
     td{
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
         border-radius: 8px;
         font-size: 25px;
         font-weight: 600;
