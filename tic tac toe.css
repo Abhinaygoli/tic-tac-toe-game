@@ -79,7 +79,7 @@ td:hover{
     transform: scale(1.03);
 }
 
-@media (max-width:500px){
+@media (max-width:460px){
     .heading{
         font-size: 40px;
     }
