@@ -3,9 +3,36 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-color: bisque;
     margin: 0px;
+    position: relative;
 }
-
-
+#middle-container{
+    display: flex;
+    align-items: center;
+}
+#winningMessage{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-color: white;
+    border-radius: 30px;
+    display: none;
+    animation: scaling 1s 1 forwards;
+    padding: 100px;
+}
+@keyframes scaling{
+    100%{
+        transform: scale(1.2);
+    }
+}
+#congrats-message{
+    font-size: 40px;
+    margin-top: 50px;
+}
+#winner-message{
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 600;
+}
 .heading{
     font-size: 60px;
     text-align: center;
@@ -13,11 +40,25 @@ body{
     text-shadow: 5px 5px 4px rgb(41, 43, 50);
     letter-spacing: 2px;
 }
-#player{
+#player1{
     font-size: 40px;
     font-weight: 600;
     text-align: center;
     text-shadow: 5px 5px 4px rgb(41, 43, 50);
+    margin-left: 100px;
+    color: red;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+#player2{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 5px 5px 4px rgb(41, 43, 50);
+    margin-right: 100px;
+    padding: 20px;
+    border-radius: 15px;
 }
 table{
     margin: 20px auto;
