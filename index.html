@@ -11,7 +11,8 @@
 </head>
 <body>
     <h1 class="heading">Tic Tac Toe</h1>
-    <p id="player">Player 1 </p>
+    <div id="middle-container">
+        <p id="player1"> Player 1</p>
         <table>
             <tr>
                 <td onclick="boxClicked('box1')" id="box1"></td>
@@ -29,7 +30,12 @@
                 <td onclick="boxClicked('box9')" id="box9"></td>
             </tr>
         </table>
-
+        <p id="player2"> Player 2</p>
+    </div>
+        <div id="winningMessage">
+            <h1 id="congrats-message">Congratulations</h1>
+            <p id="winner-message"></p>
+        </div>
     <script src="./tic tac toe.js"></script>
 </body>
 </html>
