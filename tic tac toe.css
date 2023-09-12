@@ -78,3 +78,47 @@ td{
 td:hover{
     transform: scale(1.03);
 }
+
+@media (max-width:500px){
+    .heading{
+        font-size: 40px;
+    }
+    #player1{
+        font-size: 15px;
+        margin-left: 20px;
+        padding: 20px;
+        border-radius: 15px;
+    }
+    #player2{
+        font-size: 15px;
+        margin-right: 20px;
+        padding: 20px;
+        border-radius: 15px;
+    }
+    table{
+        border-spacing: 5px;
+    }
+    td{
+        width: 70px;
+        height: 70px;
+        border-radius: 8px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    #winningMessage{
+        top: 40%;
+        left: 20%;
+        border-radius: 20px;
+        animation: scaling 1s 1 forwards;
+        padding: 50px;
+    }
+    #congrats-message{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    #winner-message{
+        font-size: 10px;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+}
