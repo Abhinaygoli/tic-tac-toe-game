@@ -85,14 +85,14 @@ td:hover{
     }
     #player1{
         font-size: 12px;
-        margin-left: 20px;
-        padding: 20px;
+        margin-left: 15px;
+        padding: 15px;
         border-radius: 15px;
     }
     #player2{
         font-size: 12px;
         margin-right: 20px;
-        padding: 20px;
+        padding: 15px;
         border-radius: 15px;
     }
     table{
